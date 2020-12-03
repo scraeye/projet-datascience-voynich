@@ -7,6 +7,11 @@ import tensorflow as tf
 
 st.title('Projet Data Science - Manuscript de Voynich')
 
+st.subheader('Sommaire')
+st.markdown("<a href='01_exploration.py'>1 Exploration</a>", unsafe_allow_html=True)
+st.markdown("<a href='02_Word2Vec.py'>2 Word2Vec</a>", unsafe_allow_html=True)
+st.markdown("3 RNN", unsafe_allow_html=True)
+
 st.header('3 - RNN')
 
 st.markdown("On importe le texte")

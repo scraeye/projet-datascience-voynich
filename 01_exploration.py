@@ -12,6 +12,11 @@ from wordcloud import WordCloud
 
 st.title('Projet Data Science - Manuscript de Voynich')
 
+st.subheader('Sommaire')
+st.markdown("1 Exploration", unsafe_allow_html=True)
+st.markdown("<a href='02_Word2Vec.py'>2 Word2Vec</a>", unsafe_allow_html=True)
+st.markdown("<a href='03_RNN.py'>3 RNN</a>", unsafe_allow_html=True)
+
 st.subheader('Introduction')
 
 st.markdown('Le manuscrit de Voynich est un livre illustré anonyme rédigé dans une écriture à ce jour non déchiffrée et une langue non identifiée. '
@@ -200,3 +205,6 @@ st.warning("Il est inhabituel dans une langue d'avoir si peu de mots de deux et 
 
 st.info("L'exploration des données montre que le texte de Voynich a bien les même caractéristique qu'un texte écrit dans une autre langue. "
     +"Cela n'est pas suffisant pour prouver le texte n'est pas une supercherie mais ici rien ne prouve le contraire")
+
+
+st.markdown("<a href='02_Word2Vec.py'>2 Word2Vec</a>", unsafe_allow_html=True)
