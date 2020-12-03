@@ -11,9 +11,9 @@ from sklearn.preprocessing import Normalizer
 st.title('Projet Data Science - Manuscript de Voynich')
 
 st.subheader('Sommaire')
-st.markdown("<a href='/scraeye/projet-datascience-voynich/01_exploration.py'>1 Exploration</a>", unsafe_allow_html=True)
+st.markdown("<a href='/scraeye/projet-datascience-voynich/main/01_exploration.py'>1 Exploration</a>", unsafe_allow_html=True)
 st.markdown("2 Word2Vec", unsafe_allow_html=True)
-st.markdown("<a href='/scraeye/projet-datascience-voynich/03_RNN.py'>3 RNN</a>", unsafe_allow_html=True)
+st.markdown("<a href='/scraeye/projet-datascience-voynich/main/03_RNN.py'>3 RNN</a>", unsafe_allow_html=True)
 
 st.header('2 - Word2Vec')
 
@@ -193,4 +193,4 @@ with st.echo():
 
 st.success("On constate que dans le deuxième cas, les points sont un peu plus proches donc les mots ont a sens plus proche. Ce qui est cohérent avec les mots choisis")
 
-st.markdown("<a href='/scraeye/projet-datascience-voynich/03_RNN.py'>3 RNN</a>", unsafe_allow_html=True)
+st.markdown("<a href='/scraeye/projet-datascience-voynich/main/03_RNN.py'>3 RNN</a>", unsafe_allow_html=True)
