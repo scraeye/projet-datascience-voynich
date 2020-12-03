@@ -8,8 +8,8 @@ from sklearn.feature_extraction.text import CountVectorizer
 from nltk.tokenize.regexp import RegexpTokenizer
 from sklearn.preprocessing import Normalizer
 
-st.title('Projet Data Science - Manuscript de Voynich')
 st.set_page_config(page_title='Projet Data Science - Manuscript de Voynich - 2 Word2Vec')
+st.title('Projet Data Science - Manuscript de Voynich')
 
 st.subheader('Sommaire')
 st.markdown("<a href='/scraeye/projet-datascience-voynich/main/01_exploration.py'>1 Exploration</a>", unsafe_allow_html=True)
