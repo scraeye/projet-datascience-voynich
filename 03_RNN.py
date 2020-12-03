@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 import tensorflow as tf
 
 st.title('Projet Data Science - Manuscript de Voynich')
+st.set_page_config(page_title='Projet Data Science - Manuscript de Voynich - 3 RNN')
 
 st.subheader('Sommaire')
 st.markdown("<a href='/scraeye/projet-datascience-voynich/main/01_exploration.py'>1 Exploration</a>", unsafe_allow_html=True)
