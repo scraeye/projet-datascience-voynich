@@ -15,8 +15,8 @@ st.title('Projet Data Science - Manuscript de Voynich')
 
 st.subheader('Sommaire')
 st.markdown("1 Exploration", unsafe_allow_html=True)
-st.markdown("<a href='/scraeye/projet-datascience-voynich/main/02_Word2Vec.py'>2 Word2Vec</a>", unsafe_allow_html=True)
-st.markdown("<a href='/scraeye/projet-datascience-voynich/main/03_RNN.py'>3 RNN</a>", unsafe_allow_html=True)
+st.markdown("<a href='https://share.streamlit.io/scraeye/projet-datascience-voynich/main/02_Word2Vec.py'>2 Word2Vec</a>", unsafe_allow_html=True)
+st.markdown("<a href='https://share.streamlit.io/scraeye/projet-datascience-voynich/main/03_RNN.py'>3 RNN</a>", unsafe_allow_html=True)
 
 st.subheader('Introduction')
 
@@ -208,4 +208,4 @@ st.info("L'exploration des donn√©es montre que le texte de Voynich a bien les m√
     +"Cela n'est pas suffisant pour prouver le texte n'est pas une supercherie mais ici rien ne prouve le contraire")
 
 
-st.markdown("<a href='/scraeye/projet-datascience-voynich/main/02_Word2Vec.py'>2 Word2Vec</a>", unsafe_allow_html=True)
+st.markdown("<a href='https://share.streamlit.io/scraeye/projet-datascience-voynich/main/02_Word2Vec.py'>2 Word2Vec</a>", unsafe_allow_html=True)
