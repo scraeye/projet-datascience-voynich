@@ -10,6 +10,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from nltk.tokenize.regexp import RegexpTokenizer
 from wordcloud import WordCloud
 
+
 st.set_page_config(page_title='Projet Data Science - Manuscrit de Voynich - 1 Exploration')
 st.title('Projet Data Science - Manuscrit de Voynich')
 
