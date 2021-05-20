@@ -7,3 +7,5 @@ Data Scientist - Manuscrit Voynich
 Text exploration, study close word with Word2Vec et text generation with Recurrent Neural Networks.
 
 https://share.streamlit.io/scraeye/projet-datascience-voynich/main/01_exploration.py
+https://share.streamlit.io/scraeye/projet-datascience-voynich/main/02_Word2Vec.py
+https://share.streamlit.io/scraeye/projet-datascience-voynich/main/03_RNN.py
